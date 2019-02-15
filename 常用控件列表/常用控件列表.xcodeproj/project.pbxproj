@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CC93D420200389001466B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93D320200389001466B6 /* AppDelegate.m */; };
+		19CC93DA20200389001466B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CC93D820200389001466B6 /* Main.storyboard */; };
+		19CC93DC20200389001466B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CC93DB20200389001466B6 /* Assets.xcassets */; };
+		19CC93DF20200389001466B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CC93DD20200389001466B6 /* LaunchScreen.storyboard */; };
+		19CC93E220200389001466B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93E120200389001466B6 /* main.m */; };
+		19CC93EB202003A6001466B6 /* ListModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93EA202003A6001466B6 /* ListModuleController.m */; };
+		19CC93F0202005A4001466B6 /* Button_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93EF202005A4001466B6 /* Button_ViewController.m */; };
+		19CC93F320200E6E001466B6 /* ImageView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93F220200E6E001466B6 /* ImageView_ViewController.m */; };
+		19CC93F620201364001466B6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93F520201364001466B6 /* BaseViewController.m */; };
+		19CC93FB202015CB001466B6 /* Label_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93FA202015CB001466B6 /* Label_ViewController.m */; };
+		19CC93FE20201B64001466B6 /* TextField_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93FD20201B64001466B6 /* TextField_ViewController.m */; };
+		E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720221F6CAA2002CBECD /* NSString+Emoji.m */; };
+		E52C720721F6CAA2002CBECD /* UITextField+InputLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */; };
+		E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720921F6CADD002CBECD /* NSString+Regex.m */; };
+		E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C88C5221F59B1E00575936 /* BaseTableViewController.m */; };
+		E5C88C5821F59E1C00575936 /* TextField_LimitInput_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C88C5621F59E1C00575936 /* TextField_LimitInput_VC.m */; };
+		E5C88C5921F59E1C00575936 /* TextField_LimitInput_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C88C5721F59E1C00575936 /* TextField_LimitInput_VC.xib */; };
+		E5F4561B21F8496800E114BC /* HHSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4561A21F8496800E114BC /* HHSwitchButton.m */; };
+		E5F4561F21F849D900E114BC /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4561E21F849D900E114BC /* UIButton+ImageTitleSpacing.m */; };
+		E5F4562321F84C5400E114BC /* Button_SwitchButton_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4562121F84C5400E114BC /* Button_SwitchButton_VC.m */; };
+		E5F4562421F84C5400E114BC /* Button_SwitchButton_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F4562221F84C5400E114BC /* Button_SwitchButton_VC.xib */; };
+		E5F4562821F8523700E114BC /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4562621F8523700E114BC /* BaseTableViewCell.m */; };
+		E5F4562921F8523700E114BC /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F4562721F8523700E114BC /* BaseTableViewCell.xib */; };
+		E5F4562D21F856D500E114BC /* AlertView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4562C21F856D500E114BC /* AlertView_ViewController.m */; };
+		E5F4563121F8577B00E114BC /* AlertView_QuickMethod_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4562F21F8577B00E114BC /* AlertView_QuickMethod_ViewController.m */; };
+		E5F4563221F8577B00E114BC /* AlertView_QuickMethod_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F4563021F8577B00E114BC /* AlertView_QuickMethod_ViewController.xib */; };
+		E5F4563621F8583100E114BC /* UIAlertController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4563521F8583100E114BC /* UIAlertController+Extension.m */; };
+		E5F4564021F8603500E114BC /* UIView+LayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4563921F8603400E114BC /* UIView+LayoutConstraints.m */; };
+		E5F4564121F8603500E114BC /* UIView+XIBCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4563C21F8603500E114BC /* UIView+XIBCreation.m */; };
+		E5F4564221F8603500E114BC /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4563E21F8603500E114BC /* UIView+Shadow.m */; };
+		E5F4564721F860F100E114BC /* View_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4564521F860F100E114BC /* View_ViewController.m */; };
+		E5F4564C21F861B400E114BC /* View_AddShadow_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4564A21F861B400E114BC /* View_AddShadow_ViewController.m */; };
+		E5F4564D21F861B400E114BC /* View_AddShadow_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F4564B21F861B400E114BC /* View_AddShadow_ViewController.xib */; };
+		E5F4565121F8651000E114BC /* RichText_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4565021F8651000E114BC /* RichText_ViewController.m */; };
+		E5F4565521F8656600E114BC /* RichText_IMRichTextEditor_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4565321F8656600E114BC /* RichText_IMRichTextEditor_ViewController.m */; };
+		E5F4565621F8656600E114BC /* RichText_IMRichTextEditor_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F4565421F8656600E114BC /* RichText_IMRichTextEditor_ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19CC93CF20200389001466B6 /* 常用控件列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "常用控件列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CC93D220200389001466B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19CC93D320200389001466B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19CC93D920200389001466B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19CC93DB20200389001466B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19CC93DE20200389001466B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19CC93E020200389001466B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CC93E120200389001466B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19CC93E9202003A6001466B6 /* ListModuleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModuleController.h; sourceTree = "<group>"; };
+		19CC93EA202003A6001466B6 /* ListModuleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModuleController.m; sourceTree = "<group>"; };
+		19CC93EE202005A4001466B6 /* Button_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_ViewController.h; sourceTree = "<group>"; };
+		19CC93EF202005A4001466B6 /* Button_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_ViewController.m; sourceTree = "<group>"; };
+		19CC93F120200E6E001466B6 /* ImageView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView_ViewController.h; sourceTree = "<group>"; };
+		19CC93F220200E6E001466B6 /* ImageView_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView_ViewController.m; sourceTree = "<group>"; };
+		19CC93F420201364001466B6 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		19CC93F520201364001466B6 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		19CC93F820201423001466B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		19CC93F9202015CB001466B6 /* Label_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Label_ViewController.h; sourceTree = "<group>"; };
+		19CC93FA202015CB001466B6 /* Label_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Label_ViewController.m; sourceTree = "<group>"; };
+		19CC93FC20201B64001466B6 /* TextField_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField_ViewController.h; sourceTree = "<group>"; };
+		19CC93FD20201B64001466B6 /* TextField_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextField_ViewController.m; sourceTree = "<group>"; };
+		E52C720221F6CAA2002CBECD /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+InputLimits.m"; sourceTree = "<group>"; };
+		E52C720421F6CAA2002CBECD /* UITextField+InputLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+InputLimits.h"; sourceTree = "<group>"; };
+		E52C720521F6CAA2002CBECD /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		E52C720821F6CADD002CBECD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		E52C720921F6CADD002CBECD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		E5C88C5121F59B1E00575936 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		E5C88C5221F59B1E00575936 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		E5C88C5521F59E1C00575936 /* TextField_LimitInput_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField_LimitInput_VC.h; sourceTree = "<group>"; };
+		E5C88C5621F59E1C00575936 /* TextField_LimitInput_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextField_LimitInput_VC.m; sourceTree = "<group>"; };
+		E5C88C5721F59E1C00575936 /* TextField_LimitInput_VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextField_LimitInput_VC.xib; sourceTree = "<group>"; };
+		E5F4561921F8496800E114BC /* HHSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSwitchButton.h; sourceTree = "<group>"; };
+		E5F4561A21F8496800E114BC /* HHSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSwitchButton.m; sourceTree = "<group>"; };
+		E5F4561D21F849D900E114BC /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		E5F4561E21F849D900E114BC /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		E5F4562021F84C5400E114BC /* Button_SwitchButton_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_SwitchButton_VC.h; sourceTree = "<group>"; };
+		E5F4562121F84C5400E114BC /* Button_SwitchButton_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_SwitchButton_VC.m; sourceTree = "<group>"; };
+		E5F4562221F84C5400E114BC /* Button_SwitchButton_VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Button_SwitchButton_VC.xib; sourceTree = "<group>"; };
+		E5F4562521F8523700E114BC /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		E5F4562621F8523700E114BC /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		E5F4562721F8523700E114BC /* BaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		E5F4562B21F856D500E114BC /* AlertView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView_ViewController.h; sourceTree = "<group>"; };
+		E5F4562C21F856D500E114BC /* AlertView_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView_ViewController.m; sourceTree = "<group>"; };
+		E5F4562E21F8577B00E114BC /* AlertView_QuickMethod_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView_QuickMethod_ViewController.h; sourceTree = "<group>"; };
+		E5F4562F21F8577B00E114BC /* AlertView_QuickMethod_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView_QuickMethod_ViewController.m; sourceTree = "<group>"; };
+		E5F4563021F8577B00E114BC /* AlertView_QuickMethod_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView_QuickMethod_ViewController.xib; sourceTree = "<group>"; };
+		E5F4563421F8583100E114BC /* UIAlertController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extension.h"; sourceTree = "<group>"; };
+		E5F4563521F8583100E114BC /* UIAlertController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extension.m"; sourceTree = "<group>"; };
+		E5F4563821F8603400E114BC /* UIView+LayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutConstraints.h"; sourceTree = "<group>"; };
+		E5F4563921F8603400E114BC /* UIView+LayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutConstraints.m"; sourceTree = "<group>"; };
+		E5F4563B21F8603500E114BC /* UIView+XIBCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XIBCreation.h"; sourceTree = "<group>"; };
+		E5F4563C21F8603500E114BC /* UIView+XIBCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XIBCreation.m"; sourceTree = "<group>"; };
+		E5F4563E21F8603500E114BC /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		E5F4563F21F8603500E114BC /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		E5F4564421F860F100E114BC /* View_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_ViewController.h; sourceTree = "<group>"; };
+		E5F4564521F860F100E114BC /* View_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_ViewController.m; sourceTree = "<group>"; };
+		E5F4564921F861B400E114BC /* View_AddShadow_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_AddShadow_ViewController.h; sourceTree = "<group>"; };
+		E5F4564A21F861B400E114BC /* View_AddShadow_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_AddShadow_ViewController.m; sourceTree = "<group>"; };
+		E5F4564B21F861B400E114BC /* View_AddShadow_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View_AddShadow_ViewController.xib; sourceTree = "<group>"; };
+		E5F4564F21F8651000E114BC /* RichText_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichText_ViewController.h; sourceTree = "<group>"; };
+		E5F4565021F8651000E114BC /* RichText_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichText_ViewController.m; sourceTree = "<group>"; };
+		E5F4565221F8656600E114BC /* RichText_IMRichTextEditor_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichText_IMRichTextEditor_ViewController.h; sourceTree = "<group>"; };
+		E5F4565321F8656600E114BC /* RichText_IMRichTextEditor_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichText_IMRichTextEditor_ViewController.m; sourceTree = "<group>"; };
+		E5F4565421F8656600E114BC /* RichText_IMRichTextEditor_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RichText_IMRichTextEditor_ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CC93CC20200389001466B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CC93C620200389001466B6 = {
+			isa = PBXGroup;
+			children = (
+				19CC93D120200389001466B6 /* 常用控件列表 */,
+				19CC93D020200389001466B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19CC93D020200389001466B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93CF20200389001466B6 /* 常用控件列表.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19CC93D120200389001466B6 /* 常用控件列表 */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93E020200389001466B6 /* Info.plist */,
+				19CC93F72020136C001466B6 /* BaseClass */,
+				19CC93E8202003A6001466B6 /* ListModuleController */,
+				19CC93EC202003BB001466B6 /* Main */,
+				19CC93ED2020054E001466B6 /* Controls */,
+				E52C71FD21F6CA13002CBECD /* Categories */,
+				E5F4565921F8678A00E114BC /* Vender */,
+			);
+			path = "常用控件列表";
+			sourceTree = "<group>";
+		};
+		19CC93E8202003A6001466B6 /* ListModuleController */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93E9202003A6001466B6 /* ListModuleController.h */,
+				19CC93EA202003A6001466B6 /* ListModuleController.m */,
+			);
+			path = ListModuleController;
+			sourceTree = "<group>";
+		};
+		19CC93EC202003BB001466B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93D220200389001466B6 /* AppDelegate.h */,
+				19CC93D320200389001466B6 /* AppDelegate.m */,
+				19CC93D820200389001466B6 /* Main.storyboard */,
+				19CC93DB20200389001466B6 /* Assets.xcassets */,
+				19CC93DD20200389001466B6 /* LaunchScreen.storyboard */,
+				19CC93E120200389001466B6 /* main.m */,
+				19CC93F820201423001466B6 /* PrefixHeader.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		19CC93ED2020054E001466B6 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4564E21F864CE00E114BC /* RichTextEditor */,
+				E5F4564321F860D100E114BC /* View */,
+				E5F4562A21F856A900E114BC /* AlertView */,
+				E5C88C5C21F5C51200575936 /* Label */,
+				E5C88C5B21F5C4FF00575936 /* ImageView */,
+				E5C88C5A21F5C4E800575936 /* Button */,
+				E5C88C5421F59DCC00575936 /* TextField */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		19CC93F72020136C001466B6 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93F420201364001466B6 /* BaseViewController.h */,
+				19CC93F520201364001466B6 /* BaseViewController.m */,
+				E5C88C5121F59B1E00575936 /* BaseTableViewController.h */,
+				E5C88C5221F59B1E00575936 /* BaseTableViewController.m */,
+				E5F4562521F8523700E114BC /* BaseTableViewCell.h */,
+				E5F4562621F8523700E114BC /* BaseTableViewCell.m */,
+				E5F4562721F8523700E114BC /* BaseTableViewCell.xib */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E52C71FD21F6CA13002CBECD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E52C720121F6CAA2002CBECD /* UITextField+InputLimits */,
+				E5F4561C21F849D900E114BC /* UIButton+ImageTitleSpacing */,
+				E5F4563321F8583100E114BC /* UIAlertController+Extension */,
+				E5F4563721F8603400E114BC /* UIView+LayoutConstraints */,
+				E5F4563D21F8603500E114BC /* UIView+Shadow */,
+				E5F4563A21F8603500E114BC /* UIView+XIBCreation */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E52C720121F6CAA2002CBECD /* UITextField+InputLimits */ = {
+			isa = PBXGroup;
+			children = (
+				E52C720521F6CAA2002CBECD /* NSString+Emoji.h */,
+				E52C720221F6CAA2002CBECD /* NSString+Emoji.m */,
+				E52C720821F6CADD002CBECD /* NSString+Regex.h */,
+				E52C720921F6CADD002CBECD /* NSString+Regex.m */,
+				E52C720421F6CAA2002CBECD /* UITextField+InputLimits.h */,
+				E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */,
+			);
+			path = "UITextField+InputLimits";
+			sourceTree = "<group>";
+		};
+		E5C88C5421F59DCC00575936 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93FC20201B64001466B6 /* TextField_ViewController.h */,
+				19CC93FD20201B64001466B6 /* TextField_ViewController.m */,
+				E5C88C5521F59E1C00575936 /* TextField_LimitInput_VC.h */,
+				E5C88C5621F59E1C00575936 /* TextField_LimitInput_VC.m */,
+				E5C88C5721F59E1C00575936 /* TextField_LimitInput_VC.xib */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		E5C88C5A21F5C4E800575936 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93EE202005A4001466B6 /* Button_ViewController.h */,
+				19CC93EF202005A4001466B6 /* Button_ViewController.m */,
+				E5F4562021F84C5400E114BC /* Button_SwitchButton_VC.h */,
+				E5F4562121F84C5400E114BC /* Button_SwitchButton_VC.m */,
+				E5F4562221F84C5400E114BC /* Button_SwitchButton_VC.xib */,
+				E5F4561921F8496800E114BC /* HHSwitchButton.h */,
+				E5F4561A21F8496800E114BC /* HHSwitchButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		E5C88C5B21F5C4FF00575936 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93F120200E6E001466B6 /* ImageView_ViewController.h */,
+				19CC93F220200E6E001466B6 /* ImageView_ViewController.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		E5C88C5C21F5C51200575936 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				19CC93F9202015CB001466B6 /* Label_ViewController.h */,
+				19CC93FA202015CB001466B6 /* Label_ViewController.m */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		E5F4561C21F849D900E114BC /* UIButton+ImageTitleSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4561D21F849D900E114BC /* UIButton+ImageTitleSpacing.h */,
+				E5F4561E21F849D900E114BC /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = "UIButton+ImageTitleSpacing";
+			sourceTree = "<group>";
+		};
+		E5F4562A21F856A900E114BC /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4562B21F856D500E114BC /* AlertView_ViewController.h */,
+				E5F4562C21F856D500E114BC /* AlertView_ViewController.m */,
+				E5F4562E21F8577B00E114BC /* AlertView_QuickMethod_ViewController.h */,
+				E5F4562F21F8577B00E114BC /* AlertView_QuickMethod_ViewController.m */,
+				E5F4563021F8577B00E114BC /* AlertView_QuickMethod_ViewController.xib */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		E5F4563321F8583100E114BC /* UIAlertController+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4563421F8583100E114BC /* UIAlertController+Extension.h */,
+				E5F4563521F8583100E114BC /* UIAlertController+Extension.m */,
+			);
+			path = "UIAlertController+Extension";
+			sourceTree = "<group>";
+		};
+		E5F4563721F8603400E114BC /* UIView+LayoutConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4563821F8603400E114BC /* UIView+LayoutConstraints.h */,
+				E5F4563921F8603400E114BC /* UIView+LayoutConstraints.m */,
+			);
+			path = "UIView+LayoutConstraints";
+			sourceTree = "<group>";
+		};
+		E5F4563A21F8603500E114BC /* UIView+XIBCreation */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4563B21F8603500E114BC /* UIView+XIBCreation.h */,
+				E5F4563C21F8603500E114BC /* UIView+XIBCreation.m */,
+			);
+			path = "UIView+XIBCreation";
+			sourceTree = "<group>";
+		};
+		E5F4563D21F8603500E114BC /* UIView+Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4563E21F8603500E114BC /* UIView+Shadow.m */,
+				E5F4563F21F8603500E114BC /* UIView+Shadow.h */,
+			);
+			path = "UIView+Shadow";
+			sourceTree = "<group>";
+		};
+		E5F4564321F860D100E114BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4564421F860F100E114BC /* View_ViewController.h */,
+				E5F4564521F860F100E114BC /* View_ViewController.m */,
+				E5F4564921F861B400E114BC /* View_AddShadow_ViewController.h */,
+				E5F4564A21F861B400E114BC /* View_AddShadow_ViewController.m */,
+				E5F4564B21F861B400E114BC /* View_AddShadow_ViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5F4564E21F864CE00E114BC /* RichTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E5F4564F21F8651000E114BC /* RichText_ViewController.h */,
+				E5F4565021F8651000E114BC /* RichText_ViewController.m */,
+				E5F4565221F8656600E114BC /* RichText_IMRichTextEditor_ViewController.h */,
+				E5F4565321F8656600E114BC /* RichText_IMRichTextEditor_ViewController.m */,
+				E5F4565421F8656600E114BC /* RichText_IMRichTextEditor_ViewController.xib */,
+			);
+			path = RichTextEditor;
+			sourceTree = "<group>";
+		};
+		E5F4565921F8678A00E114BC /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19CC93CE20200389001466B6 /* 常用控件列表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CC93E520200389001466B6 /* Build configuration list for PBXNativeTarget "常用控件列表" */;
+			buildPhases = (
+				19CC93CB20200389001466B6 /* Sources */,
+				19CC93CC20200389001466B6 /* Frameworks */,
+				19CC93CD20200389001466B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "常用控件列表";
+			productName = "常用控件列表";
+			productReference = 19CC93CF20200389001466B6 /* 常用控件列表.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19CC93C720200389001466B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Herbert Hu";
+				TargetAttributes = {
+					19CC93CE20200389001466B6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19CC93CA20200389001466B6 /* Build configuration list for PBXProject "常用控件列表" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19CC93C620200389001466B6;
+			productRefGroup = 19CC93D020200389001466B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19CC93CE20200389001466B6 /* 常用控件列表 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CC93CD20200389001466B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F4562921F8523700E114BC /* BaseTableViewCell.xib in Resources */,
+				E5F4563221F8577B00E114BC /* AlertView_QuickMethod_ViewController.xib in Resources */,
+				E5F4562421F84C5400E114BC /* Button_SwitchButton_VC.xib in Resources */,
+				E5F4565621F8656600E114BC /* RichText_IMRichTextEditor_ViewController.xib in Resources */,
+				E5F4564D21F861B400E114BC /* View_AddShadow_ViewController.xib in Resources */,
+				19CC93DF20200389001466B6 /* LaunchScreen.storyboard in Resources */,
+				19CC93DC20200389001466B6 /* Assets.xcassets in Resources */,
+				19CC93DA20200389001466B6 /* Main.storyboard in Resources */,
+				E5C88C5921F59E1C00575936 /* TextField_LimitInput_VC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CC93CB20200389001466B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52C720721F6CAA2002CBECD /* UITextField+InputLimits.m in Sources */,
+				E5F4563121F8577B00E114BC /* AlertView_QuickMethod_ViewController.m in Sources */,
+				E5F4563621F8583100E114BC /* UIAlertController+Extension.m in Sources */,
+				E5C88C5821F59E1C00575936 /* TextField_LimitInput_VC.m in Sources */,
+				19CC93E220200389001466B6 /* main.m in Sources */,
+				E5F4564221F8603500E114BC /* UIView+Shadow.m in Sources */,
+				19CC93F0202005A4001466B6 /* Button_ViewController.m in Sources */,
+				E5F4562D21F856D500E114BC /* AlertView_ViewController.m in Sources */,
+				E5F4562821F8523700E114BC /* BaseTableViewCell.m in Sources */,
+				E5F4565521F8656600E114BC /* RichText_IMRichTextEditor_ViewController.m in Sources */,
+				E5F4562321F84C5400E114BC /* Button_SwitchButton_VC.m in Sources */,
+				E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */,
+				E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */,
+				E5F4564121F8603500E114BC /* UIView+XIBCreation.m in Sources */,
+				E5F4564021F8603500E114BC /* UIView+LayoutConstraints.m in Sources */,
+				19CC93D420200389001466B6 /* AppDelegate.m in Sources */,
+				E5F4565121F8651000E114BC /* RichText_ViewController.m in Sources */,
+				E5F4561B21F8496800E114BC /* HHSwitchButton.m in Sources */,
+				E5F4561F21F849D900E114BC /* UIButton+ImageTitleSpacing.m in Sources */,
+				E5F4564C21F861B400E114BC /* View_AddShadow_ViewController.m in Sources */,
+				E5F4564721F860F100E114BC /* View_ViewController.m in Sources */,
+				E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */,
+				19CC93EB202003A6001466B6 /* ListModuleController.m in Sources */,
+				19CC93FE20201B64001466B6 /* TextField_ViewController.m in Sources */,
+				19CC93F620201364001466B6 /* BaseViewController.m in Sources */,
+				19CC93F320200E6E001466B6 /* ImageView_ViewController.m in Sources */,
+				19CC93FB202015CB001466B6 /* Label_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19CC93D820200389001466B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CC93D920200389001466B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19CC93DD20200389001466B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CC93DE20200389001466B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19CC93E320200389001466B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19CC93E420200389001466B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19CC93E620200389001466B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/常用控件列表/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = "常用控件列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewThread.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19CC93E720200389001466B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/常用控件列表/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = "常用控件列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NewThread.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CC93CA20200389001466B6 /* Build configuration list for PBXProject "常用控件列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CC93E320200389001466B6 /* Debug */,
+				19CC93E420200389001466B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CC93E520200389001466B6 /* Build configuration list for PBXNativeTarget "常用控件列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CC93E620200389001466B6 /* Debug */,
+				19CC93E720200389001466B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19CC93C720200389001466B6 /* Project object */;
+}
