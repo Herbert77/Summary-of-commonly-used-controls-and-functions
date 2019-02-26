@@ -20,9 +20,9 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5g-h6-22B">
-                        <rect key="frame" x="16" y="11" width="343" height="78"/>
+                        <rect key="frame" x="12" y="12" width="351" height="75.5"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="78" id="WFp-9H-D1n"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75.5" id="VwA-0J-WUw"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
                         <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -30,17 +30,19 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="q5g-h6-22B" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="3pQ-pA-A8c"/>
-                    <constraint firstItem="q5g-h6-22B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="IYL-Mc-dPZ"/>
-                    <constraint firstItem="q5g-h6-22B" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="lOP-sH-wR3"/>
-                    <constraint firstItem="q5g-h6-22B" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="rb7-Zu-hzn"/>
+                    <constraint firstItem="q5g-h6-22B" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="3U5-rr-XKi"/>
+                    <constraint firstAttribute="bottom" secondItem="q5g-h6-22B" secondAttribute="bottom" constant="12" id="Co0-sF-Icr"/>
+                    <constraint firstAttribute="trailing" secondItem="q5g-h6-22B" secondAttribute="trailing" constant="12" id="EeV-UN-RqL"/>
+                    <constraint firstItem="q5g-h6-22B" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Fmy-Xr-320"/>
+                    <constraint firstItem="q5g-h6-22B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="IXS-63-fmv"/>
+                    <constraint firstItem="q5g-h6-22B" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="wEi-bW-6ra"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
             <connections>
                 <outlet property="instructionLab" destination="q5g-h6-22B" id="yJW-NP-hiU"/>
             </connections>
-            <point key="canvasLocation" x="56.799999999999997" y="107.94602698650675"/>
+            <point key="canvasLocation" x="295" y="-22"/>
         </tableViewCell>
     </objects>
 </document>

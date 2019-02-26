@@ -18,9 +18,16 @@
 		19CC93F620201364001466B6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93F520201364001466B6 /* BaseViewController.m */; };
 		19CC93FB202015CB001466B6 /* Label_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93FA202015CB001466B6 /* Label_ViewController.m */; };
 		19CC93FE20201B64001466B6 /* TextField_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CC93FD20201B64001466B6 /* TextField_ViewController.m */; };
+		E51AB340221668F4004BC701 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = E51AB33E221668F4004BC701 /* UIImage+Blur.m */; };
 		E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720221F6CAA2002CBECD /* NSString+Emoji.m */; };
 		E52C720721F6CAA2002CBECD /* UITextField+InputLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */; };
 		E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720921F6CADD002CBECD /* NSString+Regex.m */; };
+		E57A36E4221A45FD00FD891B /* ScrollView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36E3221A45FD00FD891B /* ScrollView_ViewController.m */; };
+		E57A36E8221A463A00FD891B /* ScrollView_Layout_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36E6221A463A00FD891B /* ScrollView_Layout_ViewController.m */; };
+		E57A36E9221A463A00FD891B /* ScrollView_Layout_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57A36E7221A463A00FD891B /* ScrollView_Layout_ViewController.xib */; };
+		E57A36ED221A551800FD891B /* Test_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36EC221A551800FD891B /* Test_ViewController.m */; };
+		E57A36F1221A55B400FD891B /* AvailableMemory_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36EF221A55B400FD891B /* AvailableMemory_ViewController.m */; };
+		E57A36F2221A55B400FD891B /* AvailableMemory_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57A36F0221A55B400FD891B /* AvailableMemory_ViewController.xib */; };
 		E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C88C5221F59B1E00575936 /* BaseTableViewController.m */; };
 		E5C88C5821F59E1C00575936 /* TextField_LimitInput_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C88C5621F59E1C00575936 /* TextField_LimitInput_VC.m */; };
 		E5C88C5921F59E1C00575936 /* TextField_LimitInput_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C88C5721F59E1C00575936 /* TextField_LimitInput_VC.xib */; };
@@ -67,12 +74,24 @@
 		19CC93FA202015CB001466B6 /* Label_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Label_ViewController.m; sourceTree = "<group>"; };
 		19CC93FC20201B64001466B6 /* TextField_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField_ViewController.h; sourceTree = "<group>"; };
 		19CC93FD20201B64001466B6 /* TextField_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextField_ViewController.m; sourceTree = "<group>"; };
+		E51AB33E221668F4004BC701 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		E51AB33F221668F4004BC701 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
 		E52C720221F6CAA2002CBECD /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
 		E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+InputLimits.m"; sourceTree = "<group>"; };
 		E52C720421F6CAA2002CBECD /* UITextField+InputLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+InputLimits.h"; sourceTree = "<group>"; };
 		E52C720521F6CAA2002CBECD /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
 		E52C720821F6CADD002CBECD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		E52C720921F6CADD002CBECD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		E57A36E2221A45FD00FD891B /* ScrollView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView_ViewController.h; sourceTree = "<group>"; };
+		E57A36E3221A45FD00FD891B /* ScrollView_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_ViewController.m; sourceTree = "<group>"; };
+		E57A36E5221A463A00FD891B /* ScrollView_Layout_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView_Layout_ViewController.h; sourceTree = "<group>"; };
+		E57A36E6221A463A00FD891B /* ScrollView_Layout_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_Layout_ViewController.m; sourceTree = "<group>"; };
+		E57A36E7221A463A00FD891B /* ScrollView_Layout_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollView_Layout_ViewController.xib; sourceTree = "<group>"; };
+		E57A36EB221A551800FD891B /* Test_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_ViewController.h; sourceTree = "<group>"; };
+		E57A36EC221A551800FD891B /* Test_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_ViewController.m; sourceTree = "<group>"; };
+		E57A36EE221A55B400FD891B /* AvailableMemory_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvailableMemory_ViewController.h; sourceTree = "<group>"; };
+		E57A36EF221A55B400FD891B /* AvailableMemory_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvailableMemory_ViewController.m; sourceTree = "<group>"; };
+		E57A36F0221A55B400FD891B /* AvailableMemory_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvailableMemory_ViewController.xib; sourceTree = "<group>"; };
 		E5C88C5121F59B1E00575936 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		E5C88C5221F59B1E00575936 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		E5C88C5521F59E1C00575936 /* TextField_LimitInput_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField_LimitInput_VC.h; sourceTree = "<group>"; };
@@ -180,6 +199,8 @@
 		19CC93ED2020054E001466B6 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				E57A36EA221A54FA00FD891B /* Test */,
+				E57A36E1221A45D900FD891B /* ScrollView */,
 				E5F4564E21F864CE00E114BC /* RichTextEditor */,
 				E5F4564321F860D100E114BC /* View */,
 				E5F4562A21F856A900E114BC /* AlertView */,
@@ -208,6 +229,8 @@
 		E52C71FD21F6CA13002CBECD /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				E51AB33F221668F4004BC701 /* UIImage+Blur.h */,
+				E51AB33E221668F4004BC701 /* UIImage+Blur.m */,
 				E52C720121F6CAA2002CBECD /* UITextField+InputLimits */,
 				E5F4561C21F849D900E114BC /* UIButton+ImageTitleSpacing */,
 				E5F4563321F8583100E114BC /* UIAlertController+Extension */,
@@ -229,6 +252,30 @@
 				E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */,
 			);
 			path = "UITextField+InputLimits";
+			sourceTree = "<group>";
+		};
+		E57A36E1221A45D900FD891B /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				E57A36E2221A45FD00FD891B /* ScrollView_ViewController.h */,
+				E57A36E3221A45FD00FD891B /* ScrollView_ViewController.m */,
+				E57A36E5221A463A00FD891B /* ScrollView_Layout_ViewController.h */,
+				E57A36E6221A463A00FD891B /* ScrollView_Layout_ViewController.m */,
+				E57A36E7221A463A00FD891B /* ScrollView_Layout_ViewController.xib */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		E57A36EA221A54FA00FD891B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E57A36EB221A551800FD891B /* Test_ViewController.h */,
+				E57A36EC221A551800FD891B /* Test_ViewController.m */,
+				E57A36EE221A55B400FD891B /* AvailableMemory_ViewController.h */,
+				E57A36EF221A55B400FD891B /* AvailableMemory_ViewController.m */,
+				E57A36F0221A55B400FD891B /* AvailableMemory_ViewController.xib */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		E5C88C5421F59DCC00575936 /* TextField */ = {
@@ -389,7 +436,7 @@
 		19CC93C720200389001466B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Herbert Hu";
 				TargetAttributes = {
 					19CC93CE20200389001466B6 = {
@@ -428,7 +475,9 @@
 				E5F4564D21F861B400E114BC /* View_AddShadow_ViewController.xib in Resources */,
 				19CC93DF20200389001466B6 /* LaunchScreen.storyboard in Resources */,
 				19CC93DC20200389001466B6 /* Assets.xcassets in Resources */,
+				E57A36F2221A55B400FD891B /* AvailableMemory_ViewController.xib in Resources */,
 				19CC93DA20200389001466B6 /* Main.storyboard in Resources */,
+				E57A36E9221A463A00FD891B /* ScrollView_Layout_ViewController.xib in Resources */,
 				E5C88C5921F59E1C00575936 /* TextField_LimitInput_VC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +495,7 @@
 				E5C88C5821F59E1C00575936 /* TextField_LimitInput_VC.m in Sources */,
 				19CC93E220200389001466B6 /* main.m in Sources */,
 				E5F4564221F8603500E114BC /* UIView+Shadow.m in Sources */,
+				E57A36F1221A55B400FD891B /* AvailableMemory_ViewController.m in Sources */,
 				19CC93F0202005A4001466B6 /* Button_ViewController.m in Sources */,
 				E5F4562D21F856D500E114BC /* AlertView_ViewController.m in Sources */,
 				E5F4562821F8523700E114BC /* BaseTableViewCell.m in Sources */,
@@ -454,14 +504,18 @@
 				E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */,
 				E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */,
 				E5F4564121F8603500E114BC /* UIView+XIBCreation.m in Sources */,
+				E57A36E8221A463A00FD891B /* ScrollView_Layout_ViewController.m in Sources */,
 				E5F4564021F8603500E114BC /* UIView+LayoutConstraints.m in Sources */,
 				19CC93D420200389001466B6 /* AppDelegate.m in Sources */,
 				E5F4565121F8651000E114BC /* RichText_ViewController.m in Sources */,
 				E5F4561B21F8496800E114BC /* HHSwitchButton.m in Sources */,
 				E5F4561F21F849D900E114BC /* UIButton+ImageTitleSpacing.m in Sources */,
 				E5F4564C21F861B400E114BC /* View_AddShadow_ViewController.m in Sources */,
+				E57A36E4221A45FD00FD891B /* ScrollView_ViewController.m in Sources */,
 				E5F4564721F860F100E114BC /* View_ViewController.m in Sources */,
+				E57A36ED221A551800FD891B /* Test_ViewController.m in Sources */,
 				E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */,
+				E51AB340221668F4004BC701 /* UIImage+Blur.m in Sources */,
 				19CC93EB202003A6001466B6 /* ListModuleController.m in Sources */,
 				19CC93FE20201B64001466B6 /* TextField_ViewController.m in Sources */,
 				19CC93F620201364001466B6 /* BaseViewController.m in Sources */,
@@ -506,6 +560,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -513,6 +568,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -561,6 +617,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -568,6 +625,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

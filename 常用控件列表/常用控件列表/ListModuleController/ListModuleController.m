@@ -14,6 +14,7 @@
 #import "AlertView_ViewController.h"
 #import "View_ViewController.h"
 #import "RichText_ViewController.h"
+#import "ScrollView_ViewController.h"
 
 static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
 
@@ -52,6 +53,9 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
     
     [_titleModuleArray addObject:@"RichTextEditor"];
     [_subControllerNameModuleArray addObject:NSStringFromClass([RichText_ViewController class])];
+    
+    [_titleModuleArray addObject:@"ScrollView"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([ScrollView_ViewController class])];
 }
 
 #pragma mark - Table view data source
