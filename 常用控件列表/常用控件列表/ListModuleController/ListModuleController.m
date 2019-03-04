@@ -7,6 +7,7 @@
 //
 
 #import "ListModuleController.h"
+#import "NSObject_ViewController.h"
 #import "Button_ViewController.h"
 #import "ImageView_ViewController.h"
 #import "Label_ViewController.h"
@@ -33,6 +34,9 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
     _subControllerNameModuleArray = [NSMutableArray new];
     
     // custom configuration
+    [_titleModuleArray addObject:@"NSObject"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([NSObject_ViewController class])];
+    
     [_titleModuleArray addObject:@"UIButton"];
     [_subControllerNameModuleArray addObject:NSStringFromClass([Button_ViewController class])];
     

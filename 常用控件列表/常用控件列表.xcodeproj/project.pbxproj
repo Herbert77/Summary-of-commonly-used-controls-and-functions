@@ -31,6 +31,12 @@
 		E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C88C5221F59B1E00575936 /* BaseTableViewController.m */; };
 		E5C88C5821F59E1C00575936 /* TextField_LimitInput_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C88C5621F59E1C00575936 /* TextField_LimitInput_VC.m */; };
 		E5C88C5921F59E1C00575936 /* TextField_LimitInput_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C88C5721F59E1C00575936 /* TextField_LimitInput_VC.xib */; };
+		E5E69106222A309C004392D0 /* UILabel+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E69105222A309C004392D0 /* UILabel+Basic.m */; };
+		E5E6910D222A5CFA004392D0 /* NSObject+HHPrivates.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E6910C222A5CFA004392D0 /* NSObject+HHPrivates.m */; };
+		E5ED29D92224E1A5006AECDA /* NSObject_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ED29D82224E1A5006AECDA /* NSObject_ViewController.m */; };
+		E5ED29DC2224E1DF006AECDA /* NSPredicate_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ED29DB2224E1DF006AECDA /* NSPredicate_ViewController.m */; };
+		E5ED29DF2224E2C5006AECDA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ED29DE2224E2C5006AECDA /* Person.m */; };
+		E5ED29E222265C09006AECDA /* Bridge_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5ED29E122265C09006AECDA /* Bridge_ViewController.m */; };
 		E5F4561B21F8496800E114BC /* HHSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4561A21F8496800E114BC /* HHSwitchButton.m */; };
 		E5F4561F21F849D900E114BC /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4561E21F849D900E114BC /* UIButton+ImageTitleSpacing.m */; };
 		E5F4562321F84C5400E114BC /* Button_SwitchButton_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4562121F84C5400E114BC /* Button_SwitchButton_VC.m */; };
@@ -97,6 +103,18 @@
 		E5C88C5521F59E1C00575936 /* TextField_LimitInput_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField_LimitInput_VC.h; sourceTree = "<group>"; };
 		E5C88C5621F59E1C00575936 /* TextField_LimitInput_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextField_LimitInput_VC.m; sourceTree = "<group>"; };
 		E5C88C5721F59E1C00575936 /* TextField_LimitInput_VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextField_LimitInput_VC.xib; sourceTree = "<group>"; };
+		E5E69104222A309C004392D0 /* UILabel+Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Basic.h"; sourceTree = "<group>"; };
+		E5E69105222A309C004392D0 /* UILabel+Basic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Basic.m"; sourceTree = "<group>"; };
+		E5E6910B222A5CFA004392D0 /* NSObject+HHPrivates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HHPrivates.h"; sourceTree = "<group>"; };
+		E5E6910C222A5CFA004392D0 /* NSObject+HHPrivates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HHPrivates.m"; sourceTree = "<group>"; };
+		E5ED29D72224E1A5006AECDA /* NSObject_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_ViewController.h; sourceTree = "<group>"; };
+		E5ED29D82224E1A5006AECDA /* NSObject_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_ViewController.m; sourceTree = "<group>"; };
+		E5ED29DA2224E1DF006AECDA /* NSPredicate_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPredicate_ViewController.h; sourceTree = "<group>"; };
+		E5ED29DB2224E1DF006AECDA /* NSPredicate_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPredicate_ViewController.m; sourceTree = "<group>"; };
+		E5ED29DD2224E2C5006AECDA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E5ED29DE2224E2C5006AECDA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E5ED29E022265C09006AECDA /* Bridge_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge_ViewController.h; sourceTree = "<group>"; };
+		E5ED29E122265C09006AECDA /* Bridge_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bridge_ViewController.m; sourceTree = "<group>"; };
 		E5F4561921F8496800E114BC /* HHSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSwitchButton.h; sourceTree = "<group>"; };
 		E5F4561A21F8496800E114BC /* HHSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSwitchButton.m; sourceTree = "<group>"; };
 		E5F4561D21F849D900E114BC /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
@@ -199,6 +217,7 @@
 		19CC93ED2020054E001466B6 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				E5ED29D62224E170006AECDA /* NSObject */,
 				E57A36EA221A54FA00FD891B /* Test */,
 				E57A36E1221A45D900FD891B /* ScrollView */,
 				E5F4564E21F864CE00E114BC /* RichTextEditor */,
@@ -237,6 +256,8 @@
 				E5F4563721F8603400E114BC /* UIView+LayoutConstraints */,
 				E5F4563D21F8603500E114BC /* UIView+Shadow */,
 				E5F4563A21F8603500E114BC /* UIView+XIBCreation */,
+				E5E69103222A303D004392D0 /* UILabel+Basic */,
+				E5E6910A222A5CDC004392D0 /* NSObject+HHPrivates */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -322,6 +343,39 @@
 			path = Label;
 			sourceTree = "<group>";
 		};
+		E5E69103222A303D004392D0 /* UILabel+Basic */ = {
+			isa = PBXGroup;
+			children = (
+				E5E69104222A309C004392D0 /* UILabel+Basic.h */,
+				E5E69105222A309C004392D0 /* UILabel+Basic.m */,
+			);
+			path = "UILabel+Basic";
+			sourceTree = "<group>";
+		};
+		E5E6910A222A5CDC004392D0 /* NSObject+HHPrivates */ = {
+			isa = PBXGroup;
+			children = (
+				E5E6910B222A5CFA004392D0 /* NSObject+HHPrivates.h */,
+				E5E6910C222A5CFA004392D0 /* NSObject+HHPrivates.m */,
+			);
+			path = "NSObject+HHPrivates";
+			sourceTree = "<group>";
+		};
+		E5ED29D62224E170006AECDA /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				E5ED29D72224E1A5006AECDA /* NSObject_ViewController.h */,
+				E5ED29D82224E1A5006AECDA /* NSObject_ViewController.m */,
+				E5ED29DA2224E1DF006AECDA /* NSPredicate_ViewController.h */,
+				E5ED29DB2224E1DF006AECDA /* NSPredicate_ViewController.m */,
+				E5ED29DD2224E2C5006AECDA /* Person.h */,
+				E5ED29DE2224E2C5006AECDA /* Person.m */,
+				E5ED29E022265C09006AECDA /* Bridge_ViewController.h */,
+				E5ED29E122265C09006AECDA /* Bridge_ViewController.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		E5F4561C21F849D900E114BC /* UIButton+ImageTitleSpacing */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,8 +427,8 @@
 		E5F4563D21F8603500E114BC /* UIView+Shadow */ = {
 			isa = PBXGroup;
 			children = (
-				E5F4563E21F8603500E114BC /* UIView+Shadow.m */,
 				E5F4563F21F8603500E114BC /* UIView+Shadow.h */,
+				E5F4563E21F8603500E114BC /* UIView+Shadow.m */,
 			);
 			path = "UIView+Shadow";
 			sourceTree = "<group>";
@@ -490,6 +544,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52C720721F6CAA2002CBECD /* UITextField+InputLimits.m in Sources */,
+				E5ED29DC2224E1DF006AECDA /* NSPredicate_ViewController.m in Sources */,
+				E5ED29DF2224E2C5006AECDA /* Person.m in Sources */,
 				E5F4563121F8577B00E114BC /* AlertView_QuickMethod_ViewController.m in Sources */,
 				E5F4563621F8583100E114BC /* UIAlertController+Extension.m in Sources */,
 				E5C88C5821F59E1C00575936 /* TextField_LimitInput_VC.m in Sources */,
@@ -500,6 +556,7 @@
 				E5F4562D21F856D500E114BC /* AlertView_ViewController.m in Sources */,
 				E5F4562821F8523700E114BC /* BaseTableViewCell.m in Sources */,
 				E5F4565521F8656600E114BC /* RichText_IMRichTextEditor_ViewController.m in Sources */,
+				E5ED29E222265C09006AECDA /* Bridge_ViewController.m in Sources */,
 				E5F4562321F84C5400E114BC /* Button_SwitchButton_VC.m in Sources */,
 				E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */,
 				E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */,
@@ -516,9 +573,12 @@
 				E57A36ED221A551800FD891B /* Test_ViewController.m in Sources */,
 				E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */,
 				E51AB340221668F4004BC701 /* UIImage+Blur.m in Sources */,
+				E5ED29D92224E1A5006AECDA /* NSObject_ViewController.m in Sources */,
 				19CC93EB202003A6001466B6 /* ListModuleController.m in Sources */,
 				19CC93FE20201B64001466B6 /* TextField_ViewController.m in Sources */,
 				19CC93F620201364001466B6 /* BaseViewController.m in Sources */,
+				E5E69106222A309C004392D0 /* UILabel+Basic.m in Sources */,
+				E5E6910D222A5CFA004392D0 /* NSObject+HHPrivates.m in Sources */,
 				19CC93F320200E6E001466B6 /* ImageView_ViewController.m in Sources */,
 				19CC93FB202015CB001466B6 /* Label_ViewController.m in Sources */,
 			);
