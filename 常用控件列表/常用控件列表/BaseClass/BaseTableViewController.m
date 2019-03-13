@@ -19,6 +19,7 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([BaseTableViewCell class]) bundle:[NSBundle mainBundle]] forCellReuseIdentifier:kModuleCellIdentifier];
     _titleModuleArray = [NSMutableArray new];
     _subControllerNameModuleArray = [NSMutableArray new];

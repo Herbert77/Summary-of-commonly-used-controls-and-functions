@@ -22,9 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
                 borderColor:(nullable UIColor *)borderColor;
 
 - (void)p_setBorderForButtons:(nonnull NSArray <UIButton *>*)btnsArr
-                  borderWidth:(NSInteger)borderWidth
+                  borderWidth:(CGFloat)borderWidth
                   borderColor:(UIColor *)borderColor
-                 cornerRadius:(NSInteger)radius;
+                 cornerRadius:(CGFloat)radius;
 
 - (void)p_makeTheViews:(nullable NSArray <UIView *>*)viewsArr
                visible:(BOOL)isVisible

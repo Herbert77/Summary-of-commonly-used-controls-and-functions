@@ -33,9 +33,9 @@
 }
 
 - (void)p_setBorderForButtons:(nonnull NSArray <UIButton *>*)btnsArr
-                  borderWidth:(NSInteger)borderWidth
+                  borderWidth:(CGFloat)borderWidth
                   borderColor:(UIColor *)borderColor
-                 cornerRadius:(NSInteger)radius {
+                 cornerRadius:(CGFloat)radius {
     
     for (UIButton *btn in btnsArr) {
         [[btn layer] setMasksToBounds:NO];
