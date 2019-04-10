@@ -62,6 +62,8 @@
     [queue addOperation:c];
     [queue addOperation:a];
     [queue addOperation:b];
+    
+    NSOperationQueue *queue1 = [NSOperationQueue currentQueue];
 }
 
 - (void)run {
