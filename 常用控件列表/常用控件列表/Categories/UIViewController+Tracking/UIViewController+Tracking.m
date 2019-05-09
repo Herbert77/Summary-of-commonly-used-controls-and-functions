@@ -31,7 +31,7 @@
     
     [self hh_viewWillAppear:animated];
     
-    NSLog(@"hh_viewWillAppear: %@", self);
+    //NSLog(@"hh_viewWillAppear: %@", self);
     
 }
 

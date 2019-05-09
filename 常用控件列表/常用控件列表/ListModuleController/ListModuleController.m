@@ -17,6 +17,7 @@
 #import "RichText_ViewController.h"
 #import "ScrollView_ViewController.h"
 #import "MultiThreading_ViewController.h"
+#import "RAC_ViewController.h"
 
 static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
 
@@ -64,6 +65,9 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
     
     [_titleModuleArray addObject:@"MultiThreading"];
     [_subControllerNameModuleArray addObject:NSStringFromClass([MultiThreading_ViewController class])];
+    
+    [_titleModuleArray addObject:@"ReactiveCocoa"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([RAC_ViewController class])];
 }
 
 #pragma mark - Table view data source
