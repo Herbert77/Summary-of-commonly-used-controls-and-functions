@@ -7,10 +7,12 @@
 //
 
 #import "Label_ViewController.h"
+#import "HHPastedLabel.h"
 
 @interface Label_ViewController ()
 @property (strong, nonatomic) UILabel *label;
 @property (strong, nonatomic) UILabel *label2;
+@property (strong, nonatomic) HHPastedLabel *pastedLabel;
 @end
 
 @implementation Label_ViewController
@@ -19,6 +21,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.label];
     [self.view addSubview:self.label2];
+    [self.view addSubview:self.pastedLabel];
 }
 
 - (UILabel *)label {
@@ -55,6 +58,20 @@
         [_label2.layer setBorderWidth:1.0];
     }
     return _label2;
+}
+
+- (HHPastedLabel *)pastedLabel {
+    if (!_pastedLabel) {
+        _pastedLabel = [[HHPastedLabel alloc] init];
+        [_pastedLabel setFrame:CGRectMake(100, 300, 200, 45)];
+        [_pastedLabel setText:@"HHPastedLabel - 2019.5.9"];
+        [_pastedLabel setTextColor:[UIColor blackColor]];
+        [_pastedLabel setFont:[UIFont systemFontOfSize:16]];
+        [_pastedLabel setTextAlignment:NSTextAlignmentCenter];
+        [_pastedLabel setNumberOfLines:0];
+        [_pastedLabel sizeToFit];
+    }
+    return _pastedLabel;
 }
 
 @end

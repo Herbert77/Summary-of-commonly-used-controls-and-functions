@@ -26,6 +26,7 @@
 		E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720221F6CAA2002CBECD /* NSString+Emoji.m */; };
 		E52C720721F6CAA2002CBECD /* UITextField+InputLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */; };
 		E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720921F6CADD002CBECD /* NSString+Regex.m */; };
+		E5566E8E2283CD4000214315 /* HHPastedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5566E8D2283CD4000214315 /* HHPastedLabel.m */; };
 		E560CA162272FAD700D63E75 /* RAC_Signal_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E560CA152272FAD700D63E75 /* RAC_Signal_ViewController.m */; };
 		E57A36E4221A45FD00FD891B /* ScrollView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36E3221A45FD00FD891B /* ScrollView_ViewController.m */; };
 		E57A36E8221A463A00FD891B /* ScrollView_Layout_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36E6221A463A00FD891B /* ScrollView_Layout_ViewController.m */; };
@@ -119,6 +120,8 @@
 		E52C720521F6CAA2002CBECD /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
 		E52C720821F6CADD002CBECD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		E52C720921F6CADD002CBECD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		E5566E8C2283CD4000214315 /* HHPastedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPastedLabel.h; sourceTree = "<group>"; };
+		E5566E8D2283CD4000214315 /* HHPastedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPastedLabel.m; sourceTree = "<group>"; };
 		E560CA142272FAD700D63E75 /* RAC_Signal_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_Signal_ViewController.h; sourceTree = "<group>"; };
 		E560CA152272FAD700D63E75 /* RAC_Signal_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_Signal_ViewController.m; sourceTree = "<group>"; };
 		E57A36E2221A45FD00FD891B /* ScrollView_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollView_ViewController.h; sourceTree = "<group>"; };
@@ -447,6 +450,8 @@
 			children = (
 				19CC93F9202015CB001466B6 /* Label_ViewController.h */,
 				19CC93FA202015CB001466B6 /* Label_ViewController.m */,
+				E5566E8C2283CD4000214315 /* HHPastedLabel.h */,
+				E5566E8D2283CD4000214315 /* HHPastedLabel.m */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -726,6 +731,7 @@
 				19CC93E220200389001466B6 /* main.m in Sources */,
 				E560CA162272FAD700D63E75 /* RAC_Signal_ViewController.m in Sources */,
 				E5F4564221F8603500E114BC /* UIView+Shadow.m in Sources */,
+				E5566E8E2283CD4000214315 /* HHPastedLabel.m in Sources */,
 				E57A36F1221A55B400FD891B /* AvailableMemory_ViewController.m in Sources */,
 				19CC93F0202005A4001466B6 /* Button_ViewController.m in Sources */,
 				E5BAD0652249C99200C38985 /* HHCat.m in Sources */,
