@@ -53,7 +53,7 @@
             <connections>
                 <outlet property="instructionLab" destination="q5g-h6-22B" id="yJW-NP-hiU"/>
             </connections>
-            <point key="canvasLocation" x="293.60000000000002" y="-22.488755622188908"/>
+            <point key="canvasLocation" x="412" y="-20"/>
         </tableViewCell>
     </objects>
 </document>

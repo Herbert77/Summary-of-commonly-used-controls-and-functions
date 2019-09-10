@@ -18,8 +18,10 @@
 #import "ScrollView_ViewController.h"
 #import "MultiThreading_ViewController.h"
 #import "RAC_ViewController.h"
+#import "CoreGraphics_ViewController.h"
+#import "BaseTableViewCell.h"
 
-static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
+static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier2";
 
 @interface ListModuleController ()
 @property (strong, nonatomic) NSMutableArray *titleModuleArray;
@@ -31,7 +33,7 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"List Module";
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kModuleCellIdentifier];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([BaseTableViewCell class]) bundle:[NSBundle mainBundle]] forCellReuseIdentifier:kModuleCellIdentifier];
     _titleModuleArray = [NSMutableArray new];
     _subControllerNameModuleArray = [NSMutableArray new];
     
@@ -68,6 +70,9 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
     
     [_titleModuleArray addObject:@"ReactiveCocoa"];
     [_subControllerNameModuleArray addObject:NSStringFromClass([RAC_ViewController class])];
+    
+    [_titleModuleArray addObject:@"CoreGraphics"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([CoreGraphics_ViewController class])];
 }
 
 #pragma mark - Table view data source
@@ -80,8 +85,8 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kModuleCellIdentifier forIndexPath:indexPath];
-    [cell.textLabel setText:[_titleModuleArray objectAtIndex:indexPath.row]];
+    BaseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kModuleCellIdentifier forIndexPath:indexPath];
+    [cell.instructionLab setText:[_titleModuleArray objectAtIndex:indexPath.row]];
     return cell;
 }
 
@@ -90,6 +95,10 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier";
     Class class = NSClassFromString(className);
     UIViewController *vc = [[class alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65;
 }
 
 @end

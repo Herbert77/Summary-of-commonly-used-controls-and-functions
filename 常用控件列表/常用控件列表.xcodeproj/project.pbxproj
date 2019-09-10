@@ -26,6 +26,15 @@
 		E52C720621F6CAA2002CBECD /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720221F6CAA2002CBECD /* NSString+Emoji.m */; };
 		E52C720721F6CAA2002CBECD /* UITextField+InputLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */; };
 		E52C720A21F6CADD002CBECD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C720921F6CADD002CBECD /* NSString+Regex.m */; };
+		E52DCC6C230D0B6400F0C33E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52DCC6B230D0B6300F0C33E /* CoreGraphics.framework */; };
+		E52DCC70230D0CD000F0C33E /* CoreGraphics_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52DCC6F230D0CD000F0C33E /* CoreGraphics_ViewController.m */; };
+		E52DCC73230D0D4200F0C33E /* CG_Demo1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52DCC72230D0D4200F0C33E /* CG_Demo1_ViewController.m */; };
+		E52DCC76230D1A5000F0C33E /* CG_Demo1_View.m in Sources */ = {isa = PBXBuildFile; fileRef = E52DCC75230D1A5000F0C33E /* CG_Demo1_View.m */; };
+		E52DCC79230D1A6600F0C33E /* CG_Demo1_Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = E52DCC78230D1A6600F0C33E /* CG_Demo1_Layer.m */; };
+		E53CC5252318CAF200E6E634 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53CC5242318CAF200E6E634 /* QuartzCore.framework */; };
+		E53CC5282318CE0B00E6E634 /* CG_WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53CC5272318CE0B00E6E634 /* CG_WaveView.m */; };
+		E53CC52B2318CF6200E6E634 /* CG_Demo2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53CC52A2318CF6200E6E634 /* CG_Demo2_ViewController.m */; };
+		E5435F7023176C6700508495 /* NSString+TrimmingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E5435F6E23176C6700508495 /* NSString+TrimmingCharacters.m */; };
 		E5566E8E2283CD4000214315 /* HHPastedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5566E8D2283CD4000214315 /* HHPastedLabel.m */; };
 		E560CA162272FAD700D63E75 /* RAC_Signal_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E560CA152272FAD700D63E75 /* RAC_Signal_ViewController.m */; };
 		E57A36E4221A45FD00FD891B /* ScrollView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A36E3221A45FD00FD891B /* ScrollView_ViewController.m */; };
@@ -120,6 +129,22 @@
 		E52C720521F6CAA2002CBECD /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
 		E52C720821F6CADD002CBECD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		E52C720921F6CADD002CBECD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		E52DCC6B230D0B6300F0C33E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E52DCC6E230D0CD000F0C33E /* CoreGraphics_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphics_ViewController.h; sourceTree = "<group>"; };
+		E52DCC6F230D0CD000F0C33E /* CoreGraphics_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphics_ViewController.m; sourceTree = "<group>"; };
+		E52DCC71230D0D4200F0C33E /* CG_Demo1_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CG_Demo1_ViewController.h; sourceTree = "<group>"; };
+		E52DCC72230D0D4200F0C33E /* CG_Demo1_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CG_Demo1_ViewController.m; sourceTree = "<group>"; };
+		E52DCC74230D1A5000F0C33E /* CG_Demo1_View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CG_Demo1_View.h; sourceTree = "<group>"; };
+		E52DCC75230D1A5000F0C33E /* CG_Demo1_View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CG_Demo1_View.m; sourceTree = "<group>"; };
+		E52DCC77230D1A6600F0C33E /* CG_Demo1_Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CG_Demo1_Layer.h; sourceTree = "<group>"; };
+		E52DCC78230D1A6600F0C33E /* CG_Demo1_Layer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CG_Demo1_Layer.m; sourceTree = "<group>"; };
+		E53CC5242318CAF200E6E634 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E53CC5262318CE0B00E6E634 /* CG_WaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CG_WaveView.h; sourceTree = "<group>"; };
+		E53CC5272318CE0B00E6E634 /* CG_WaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CG_WaveView.m; sourceTree = "<group>"; };
+		E53CC5292318CF6200E6E634 /* CG_Demo2_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CG_Demo2_ViewController.h; sourceTree = "<group>"; };
+		E53CC52A2318CF6200E6E634 /* CG_Demo2_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CG_Demo2_ViewController.m; sourceTree = "<group>"; };
+		E5435F6E23176C6700508495 /* NSString+TrimmingCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TrimmingCharacters.m"; sourceTree = "<group>"; };
+		E5435F6F23176C6700508495 /* NSString+TrimmingCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TrimmingCharacters.h"; sourceTree = "<group>"; };
 		E5566E8C2283CD4000214315 /* HHPastedLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPastedLabel.h; sourceTree = "<group>"; };
 		E5566E8D2283CD4000214315 /* HHPastedLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPastedLabel.m; sourceTree = "<group>"; };
 		E560CA142272FAD700D63E75 /* RAC_Signal_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAC_Signal_ViewController.h; sourceTree = "<group>"; };
@@ -220,6 +245,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53CC5252318CAF200E6E634 /* QuartzCore.framework in Frameworks */,
+				E52DCC6C230D0B6400F0C33E /* CoreGraphics.framework in Frameworks */,
 				EE12F2E322B6659A5F34334D /* libPods-常用控件列表.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +327,7 @@
 				E5C88C5421F59DCC00575936 /* TextField */,
 				E5EB000F224C9EB50064F5C1 /* MultiThreading */,
 				E510FCEF2272E57700FE3A7F /* ReactiveCocoa */,
+				E52DCC6D230D0C9A00F0C33E /* CoreGraphics */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -321,6 +349,8 @@
 		6C40D5AB9A68386B3728A28B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E53CC5242318CAF200E6E634 /* QuartzCore.framework */,
+				E52DCC6B230D0B6300F0C33E /* CoreGraphics.framework */,
 				7CC74FBCAB76BF59DDFF0412 /* libPods-常用控件列表.a */,
 			);
 			name = Frameworks;
@@ -351,6 +381,8 @@
 			children = (
 				E51AB33F221668F4004BC701 /* UIImage+Blur.h */,
 				E51AB33E221668F4004BC701 /* UIImage+Blur.m */,
+				E5435F6F23176C6700508495 /* NSString+TrimmingCharacters.h */,
+				E5435F6E23176C6700508495 /* NSString+TrimmingCharacters.m */,
 				E52C720121F6CAA2002CBECD /* UITextField+InputLimits */,
 				E5F4561C21F849D900E114BC /* UIButton+ImageTitleSpacing */,
 				E5F4563321F8583100E114BC /* UIAlertController+Extension */,
@@ -375,6 +407,25 @@
 				E52C720321F6CAA2002CBECD /* UITextField+InputLimits.m */,
 			);
 			path = "UITextField+InputLimits";
+			sourceTree = "<group>";
+		};
+		E52DCC6D230D0C9A00F0C33E /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				E52DCC6E230D0CD000F0C33E /* CoreGraphics_ViewController.h */,
+				E52DCC6F230D0CD000F0C33E /* CoreGraphics_ViewController.m */,
+				E52DCC71230D0D4200F0C33E /* CG_Demo1_ViewController.h */,
+				E52DCC72230D0D4200F0C33E /* CG_Demo1_ViewController.m */,
+				E53CC5292318CF6200E6E634 /* CG_Demo2_ViewController.h */,
+				E53CC52A2318CF6200E6E634 /* CG_Demo2_ViewController.m */,
+				E52DCC74230D1A5000F0C33E /* CG_Demo1_View.h */,
+				E52DCC75230D1A5000F0C33E /* CG_Demo1_View.m */,
+				E52DCC77230D1A6600F0C33E /* CG_Demo1_Layer.h */,
+				E52DCC78230D1A6600F0C33E /* CG_Demo1_Layer.m */,
+				E53CC5262318CE0B00E6E634 /* CG_WaveView.h */,
+				E53CC5272318CE0B00E6E634 /* CG_WaveView.m */,
+			);
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
 		E57A36E1221A45D900FD891B /* ScrollView */ = {
@@ -724,6 +775,7 @@
 				E5ED29DC2224E1DF006AECDA /* NSPredicate_ViewController.m in Sources */,
 				E597B33F224B2A5600A6616C /* CopyMethodList_ViewController.m in Sources */,
 				E5ED29DF2224E2C5006AECDA /* Person.m in Sources */,
+				E52DCC79230D1A6600F0C33E /* CG_Demo1_Layer.m in Sources */,
 				E597B343224B574200A6616C /* MethodSwizzling_ViewController.m in Sources */,
 				E5F4563121F8577B00E114BC /* AlertView_QuickMethod_ViewController.m in Sources */,
 				E5F4563621F8583100E114BC /* UIAlertController+Extension.m in Sources */,
@@ -748,6 +800,7 @@
 				E597B339224B191100A6616C /* AllocateClassPair_ViewController.m in Sources */,
 				E5EB0015224CB8180064F5C1 /* NSThread_ViewController.m in Sources */,
 				E5F4564121F8603500E114BC /* UIView+XIBCreation.m in Sources */,
+				E52DCC76230D1A5000F0C33E /* CG_Demo1_View.m in Sources */,
 				E57A36E8221A463A00FD891B /* ScrollView_Layout_ViewController.m in Sources */,
 				E5A9ECB0224B12B30095C4A8 /* CopyIvarList_ViewController.m in Sources */,
 				E5F4564021F8603500E114BC /* UIView+LayoutConstraints.m in Sources */,
@@ -761,23 +814,28 @@
 				E5F4564721F860F100E114BC /* View_ViewController.m in Sources */,
 				E5BD055C2272F8DE00DBB054 /* File.swift in Sources */,
 				E597B34A224B5E0C00A6616C /* MethodSwizzlingTest.m in Sources */,
+				E52DCC73230D0D4200F0C33E /* CG_Demo1_ViewController.m in Sources */,
 				E57A36ED221A551800FD891B /* Test_ViewController.m in Sources */,
+				E53CC52B2318CF6200E6E634 /* CG_Demo2_ViewController.m in Sources */,
 				E5BAD0622249C87B00C38985 /* ObjMsgSend_ViewController.m in Sources */,
 				E57FB0E4224DC24F00F4F1F1 /* ThreadLock_ViewController.m in Sources */,
 				E5C88C5321F59B1E00575936 /* BaseTableViewController.m in Sources */,
 				E505A400224CC8C40098FDF0 /* NSOperation_ViewController.m in Sources */,
 				E51AB340221668F4004BC701 /* UIImage+Blur.m in Sources */,
+				E5435F7023176C6700508495 /* NSString+TrimmingCharacters.m in Sources */,
 				E5ED29D92224E1A5006AECDA /* NSObject_ViewController.m in Sources */,
 				E597B347224B57B600A6616C /* UIViewController+Tracking.m in Sources */,
 				E5EB0012224CB7AC0064F5C1 /* MultiThreading_ViewController.m in Sources */,
 				19CC93EB202003A6001466B6 /* ListModuleController.m in Sources */,
 				19CC93FE20201B64001466B6 /* TextField_ViewController.m in Sources */,
 				19CC93F620201364001466B6 /* BaseViewController.m in Sources */,
+				E52DCC70230D0CD000F0C33E /* CoreGraphics_ViewController.m in Sources */,
 				E5E69106222A309C004392D0 /* UILabel+Basic.m in Sources */,
 				E503960E224CBC7100698FAE /* GCD_ViewController.m in Sources */,
 				E5E6910D222A5CFA004392D0 /* NSObject+HHPrivates.m in Sources */,
 				19CC93F320200E6E001466B6 /* ImageView_ViewController.m in Sources */,
 				19CC93FB202015CB001466B6 /* Label_ViewController.m in Sources */,
+				E53CC5282318CE0B00E6E634 /* CG_WaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,6 +981,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58B534X3ZH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/常用控件列表/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = "常用控件列表/Info.plist";
@@ -945,6 +1007,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58B534X3ZH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/常用控件列表/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = "常用控件列表/Info.plist";
