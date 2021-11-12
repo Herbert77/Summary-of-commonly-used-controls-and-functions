@@ -25,4 +25,12 @@
     return ac;
 }
 
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message confirm:(NSString *)confirmTitle confirmHandler:(void (^)(UIAlertAction *action))confirmHandler {
+    
+    UIAlertController *ac = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *confirm = [UIAlertAction actionWithTitle:confirmTitle style:UIAlertActionStyleDefault handler:confirmHandler];
+    [ac addAction:confirm];
+    return ac;
+}
+
 @end

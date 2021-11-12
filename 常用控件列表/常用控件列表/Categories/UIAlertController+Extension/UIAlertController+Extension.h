@@ -20,4 +20,9 @@
  */
 + (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message confirm:(NSString *)confirmTitle cancel:(NSString *)cancelTitle confirmHandler:(void (^)(UIAlertAction *action))confirmHandler cancelHandler:(void (^)(UIAlertAction *action))cancelHandler;
 
+/**
+ alert弹框(不带取消按钮，确认按钮为系统蓝色)
+ */
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message confirm:(NSString *)confirmTitle confirmHandler:(void (^)(UIAlertAction *action))confirmHandler;
+
 @end

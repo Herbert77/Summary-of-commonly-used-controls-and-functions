@@ -1,16 +1,36 @@
 PODS:
+  - BMLongPressDragCellCollectionView (3.0.1)
+  - FLAnimatedImage (1.0.16)
+  - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
+  - BMLongPressDragCellCollectionView (~> 3.0.1)
+  - FLAnimatedImage (~> 1.0.16)
+  - Masonry (from `https://github.com/Herbert77/Masonry.git`)
   - ReactiveObjC (~> 3.1.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
+    - BMLongPressDragCellCollectionView
+    - FLAnimatedImage
     - ReactiveObjC
 
+EXTERNAL SOURCES:
+  Masonry:
+    :git: https://github.com/Herbert77/Masonry.git
+
+CHECKOUT OPTIONS:
+  Masonry:
+    :commit: b71f1be24df32d4434649ff34789df7d39d2cb5d
+    :git: https://github.com/Herbert77/Masonry.git
+
 SPEC CHECKSUMS:
+  BMLongPressDragCellCollectionView: 735764ec482e49e23f6799fe642f12df3849768d
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 6d71a8bcff877323da1389cfe238edb00cff5ce8
+PODFILE CHECKSUM: 11c6fd530c8459acc4d13a0947ae5261333e6fe5
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.2

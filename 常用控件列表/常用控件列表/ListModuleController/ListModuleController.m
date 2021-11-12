@@ -20,6 +20,14 @@
 #import "RAC_ViewController.h"
 #import "CoreGraphics_ViewController.h"
 #import "BaseTableViewCell.h"
+#import "CG_Demo1_ViewController.h"
+#import "CollectionView_ViewController.h"
+#import "TableView_ViewController.h"
+#import "TableView_FoldingSection_ViewController.h"
+#import "Bezier_ViewController.h"
+#import "Slider_ViewController.h"
+
+#import "BaseTabBarController.h"
 
 static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier2";
 
@@ -34,11 +42,22 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier2";
     [super viewDidLoad];
     self.title = @"List Module";
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([BaseTableViewCell class]) bundle:[NSBundle mainBundle]] forCellReuseIdentifier:kModuleCellIdentifier];
+    
+    UIBarButtonItem *rightButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"RushToDesti" style:UIBarButtonItemStyleDone target:self action:@selector(rushToDestiAction)];
+
+    [self.navigationItem setRightBarButtonItem:rightButtonItem];
+    
+    
     _titleModuleArray = [NSMutableArray new];
     _subControllerNameModuleArray = [NSMutableArray new];
     
     // custom configuration
     [_titleModuleArray addObject:@"NSObject"];
+    
+//    Class theClass = NSClassFromString(@"NSObject_ViewController");
+    
+    //[_subControllerNameModuleArray addObject:NSStringFromClass(theClass)];
+    
     [_subControllerNameModuleArray addObject:NSStringFromClass([NSObject_ViewController class])];
     
     [_titleModuleArray addObject:@"UIButton"];
@@ -73,6 +92,22 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier2";
     
     [_titleModuleArray addObject:@"CoreGraphics"];
     [_subControllerNameModuleArray addObject:NSStringFromClass([CoreGraphics_ViewController class])];
+    
+    [_titleModuleArray addObject:@"BaseTabBarController"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([BaseTabBarController class])];
+    
+    [_titleModuleArray addObject:@"CollectionView"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([CollectionView_ViewController class])];
+    
+    [_titleModuleArray addObject:@"TableView"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([TableView_ViewController class])];
+    
+    [_titleModuleArray addObject:@"Bezier"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([Bezier_ViewController class])];
+    
+    [_titleModuleArray addObject:@"UISlider"];
+    [_subControllerNameModuleArray addObject:NSStringFromClass([Slider_ViewController class])];
+
 }
 
 #pragma mark - Table view data source
@@ -101,4 +136,15 @@ static NSString *const kModuleCellIdentifier = @"kModuleCellIdentifier2";
     return 65;
 }
 
+#pragma mark - Action
+- (void)rushToDestiAction {
+    
+    TableView_FoldingSection_ViewController *vc = [[TableView_FoldingSection_ViewController alloc] init];
+    vc.x = 2;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 @end
+
+
+

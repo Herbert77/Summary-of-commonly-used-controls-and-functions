@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"address: %@", [UIApplication sharedApplication].keyWindow);
+    NSLog(@"address2: %@", [[[UIApplication sharedApplication] windows] objectAtIndex:0]);
+    
     NSArray *objArr = [[NSArray alloc] initWithObjects:
                        [Person personWithName:@"Amy" age:9],
                        [Person personWithName:@"Lisa" age:21],

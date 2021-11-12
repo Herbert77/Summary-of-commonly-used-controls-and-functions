@@ -8,6 +8,7 @@
 
 #import "AlertView_ViewController.h"
 #import "AlertView_QuickMethod_ViewController.h"
+#import "AlarmView_Custom_ViewController.h"
 
 @interface AlertView_ViewController ()
 
@@ -21,6 +22,9 @@
     // custom configuration
     [self.titleModuleArray addObject:@"AlertView-快速创建弹窗视图控制器"];
     [self.subControllerNameModuleArray addObject:NSStringFromClass([AlertView_QuickMethod_ViewController class])];
+    
+    [self.titleModuleArray addObject:@"自定义的提示信息弹窗"];
+    [self.subControllerNameModuleArray addObject:NSStringFromClass([AlarmView_Custom_ViewController class])];
 }
 
 @end

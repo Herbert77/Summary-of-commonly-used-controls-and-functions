@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="btn1" destination="sUV-OU-QdZ" id="npH-k8-YZG"/>
                 <outlet property="btn2" destination="x1H-sV-ef8" id="KNe-7i-Ep7"/>
+                <outlet property="btn3" destination="Gg5-SF-sw7" id="mrQ-JC-dOF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -40,6 +41,16 @@
                     </state>
                     <connections>
                         <action selector="btn1Action:" destination="-1" eventType="touchUpInside" id="Pe0-ek-TRP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gg5-SF-sw7">
+                    <rect key="frame" x="145" y="347" width="84" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="button-3">
+                        <color key="titleColor" red="0.23137254900000001" green="0.50980392159999999" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btn3Action:" destination="-1" eventType="touchUpInside" id="c3b-gK-yh3"/>
                     </connections>
                 </button>
             </subviews>

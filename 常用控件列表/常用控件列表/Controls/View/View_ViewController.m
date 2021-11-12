@@ -8,6 +8,8 @@
 
 #import "View_ViewController.h"
 #import "View_AddShadow_ViewController.h"
+#import "常用控件列表-Swift.h"
+
 @interface View_ViewController ()
 
 @end
@@ -20,6 +22,9 @@
     // custom configuration
     [self.titleModuleArray addObject:@"View-添加阴影"];
     [self.subControllerNameModuleArray addObject:NSStringFromClass([View_AddShadow_ViewController class])];
+    
+    [self.titleModuleArray addObject:@"协议通知弹窗"];
+    [self.subControllerNameModuleArray addObject:NSStringFromClass([NoticePopView_ViewController class])];
 }
 
 @end

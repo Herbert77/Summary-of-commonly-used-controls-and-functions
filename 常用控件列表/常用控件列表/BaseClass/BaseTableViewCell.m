@@ -7,6 +7,7 @@
 //
 
 #import "BaseTableViewCell.h"
+#import "FLAnimatedImage.h"
 
 @implementation BaseTableViewCell
 
@@ -14,6 +15,12 @@
     [super awakeFromNib];
     
     self.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    FLAnimatedImage *image = [FLAnimatedImage animatedImageWithGIFData:[NSData dataWithContentsOfURL:[NSURL fileURLWithPath:@"/Users/herbert/Documents/Github/Summary-of-commonly-used-controls-and-functions/常用控件列表/常用控件列表/abc.gif"]]];
+    FLAnimatedImageView *imageView = [[FLAnimatedImageView alloc] init];
+    imageView.animatedImage = image;
+    imageView.frame = CGRectMake(0.0, 0.0, 80.0, 79.0);
+    [self.gifView addSubview:imageView];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

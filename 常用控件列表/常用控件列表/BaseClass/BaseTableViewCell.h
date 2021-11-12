@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *instructionLab;
+@property (strong, nonatomic) IBOutlet UIView *gifView;
 
 @end
 
